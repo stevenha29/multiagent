@@ -267,12 +267,9 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 			return v
 
 		return maxValue(gameState, 0, 0, -sys.maxint - 1, sys.maxint)
-		#############
-		#END OF BOOK's ALGO
-		###########
 
 		############
-		#MY ALGORITHM
+		#CUSTOM ALGO
 		############
 		# def helper(move, state, agentIndex, currDepth, alphaMax, betaMin):
 		# 	if state.isWin() or state.isLose() or currDepth == -1:
